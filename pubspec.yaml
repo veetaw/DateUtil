@@ -1,0 +1,10 @@
+name: DateUtil
+description: Some functions the dart's DateTime library is missing
+version: 0.0.1
+author: veetaw
+
+environment:
+  sdk: '>=1.20.1 <2.0.0'
+
+dev_dependencies:
+  test: ^0.12.0
