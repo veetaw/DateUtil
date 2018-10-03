@@ -62,11 +62,6 @@ class DateUtil {
     int a, b, c, d, e, m, n;
 
     switch ((year / 100).floor()) {
-      case 15: // 1583 - 1599 (FALL THROUGH)
-      case 16: // 1600 - 1699
-        m = 22;
-        n = 2;
-        break;
 
       case 17: // 1700 - 1799
         m = 23;
