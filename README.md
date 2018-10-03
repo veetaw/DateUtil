@@ -23,7 +23,7 @@ else
 
 print("type a year to check what day will it be Easter");
 year = int.parse(stdin.readLineSync());
-print("Ester will be on: ${DateUtil.}")
+print("Easter will be on: ${DateUtil.}")
 ```
 
 ### TODO:
