@@ -6,6 +6,7 @@ Library containing some missing functions to the DateTime library.
 - check if year is leap or common.
 - get month's length
 - determine the day of the week by date
+- determine the day of Easter by year
 
 ## Usage:
 ```dart
@@ -19,6 +20,10 @@ if(isLeap)
   print("$year is a leap year!");
 else
   print("$year is a common year!");
+
+print("type a year to check what day will it be Easter");
+year = int.parse(stdin.readLineSync());
+print("Easter will be on: ${DateUtil.}")
 ```
 
 ### TODO:
