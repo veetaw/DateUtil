@@ -14,6 +14,7 @@ final Map<int, int> _days = {
 };
 
 class DateUtil {
+  
   // from https://en.wikipedia.org/wiki/Leap_year#Algorithm
   static bool isLeap(int year) =>
       year % 4 == 0 && (year % 100 != 0 || year % 100 == 0);
@@ -30,7 +31,7 @@ class DateUtil {
   static int dayOfTheWeek(int day, int month, int year) {
     if (year <= 0 || DateUtil.monthLength(month, year) < day)
       throw new Exception(
-          "year cyeart be negative and day should not be greater than the month's length");
+          "year cannot be negative and day should not be greater than the month's length");
 
     if (month == 1 || month == 2) {
       month += 12;
