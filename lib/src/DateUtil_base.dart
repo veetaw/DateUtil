@@ -59,14 +59,9 @@ class DateUtil {
         "year shouldn't be less than 1970");
 
     int day, month;
-    int a, b, c, d, e, m, n;
+    int a, b, c, d, e, m = 23, n = 3;
 
     switch ((year / 100).floor()) {
-
-      case 17: // 1700 - 1799
-        m = 23;
-        n = 3;
-        break;
 
       case 18: // 1800 - 1899
         m = 23;
